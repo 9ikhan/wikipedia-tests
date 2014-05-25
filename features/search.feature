@@ -1,5 +1,5 @@
 Feature: Search
-  As an user:
+  As a wikipedia user
   I should be able to search for relevant articles on wikipedia
 
   Scenario Outline: Search from home page for articles that have clear result
