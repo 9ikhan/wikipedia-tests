@@ -14,4 +14,4 @@ Steps to execute the scenarios:
 
 TODO:
   1. Improve page objects
-  2. Create module for webdriver hepler methods
+  2. webdriver hepler methods

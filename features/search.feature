@@ -1,6 +1,6 @@
 Feature: Search As an user: I should be able to search for relevant articles on wikipedia
 
-  @sanity
+  @sanity @firefox
   Scenario Outline: Search from home page for articles that have clear result
     Given I am on home page
     When I search for <search_term> in <language>
@@ -11,6 +11,7 @@ Feature: Search As an user: I should be able to search for relevant articles on 
      | Indien      | Deutsch  |
      | India       | English  |
 
+  @regression @chrome
   Scenario Outline: Search from home page for articles that returns search results
     Given I am on home page
     When I search for <search_term> in <language>
