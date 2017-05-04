@@ -3,7 +3,7 @@ wikipedia-tests
 These are few test scenarios for **Wikipedia** which I have created to learn cucumber and ruby. The features can be run in prallel in multiple browsers on the [BrowserStack Automate](http://www.browserstack.com/automate)  
 
 Pre-requisites:
-  1. `ruby 1.9.3` - It may work in `1.8.7` but I haven't tested it.
+  1. `ruby 1.9.3` 
   2. bundler - `gem install bundler`
 
 Steps to execute the scenarios:
